@@ -1,0 +1,16 @@
+{
+  "name": "watchmen-plugin-staytus",
+  "version": "0.1.1",
+  "description": "Watchmen plugin to send events to Staytus",
+  "main": "./lib/index.js",
+  "author": "lookapanda <doenervich@gmx.at>",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
