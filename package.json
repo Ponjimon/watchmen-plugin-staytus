@@ -1,6 +1,6 @@
 {
   "name": "watchmen-plugin-staytus",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Watchmen plugin to send events to Staytus",
   "main": "./lib/index.js",
   "author": "lookapanda <doenervich@gmx.at>",
