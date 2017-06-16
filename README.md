@@ -14,4 +14,14 @@ export WATCHMEN_STAYTUS_TOKEN ='<Staytus API Token>'
 export WATCHMEN_STAYTUS_SECRET ='<Staytus API Secret>'
 ```
 
+Or, alternatively, you can also create a `config.js` file in the root folder of watchmen.
+
+```javascript
+module.exports = {
+    WATCHMEN_STAYTUS_URL: '<URL to your Staytus installation>',
+    WATCHMEN_STAYTUS_TOKEN: '<Staytus API Token>',
+    WATCHMEN_STAYTUS_SECRET: '<Staytus API Secret>'
+};
+```
+
 The service name in Watchmen needs to be identical with the service name in Staytus!
